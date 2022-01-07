@@ -20,16 +20,16 @@
   - [x] Image  
 
 
-    ![2](https://user-images.githubusercontent.com/88143329/148465777-3737aa32-de14-4f14-a080-770a20b53a4c.png)
+    ![1](https://user-images.githubusercontent.com/88143329/148580410-1bb5fd32-bfce-4154-a7c7-2611a82d4e72.png)
     
 - View full employee information
 
-  ![3](https://user-images.githubusercontent.com/88143329/148465806-2d89a803-f397-4305-bdb1-454893e87963.png)
+  ![7](https://user-images.githubusercontent.com/88143329/148580813-87d38767-f29a-42ab-ae24-4b68caa01f12.png)
   
   
 - Add a new employee
 
-  ![4](https://user-images.githubusercontent.com/88143329/148466112-96e43058-1dc5-4e2a-9467-28d461e0b533.png)
+  ![3](https://user-images.githubusercontent.com/88143329/148580971-9debe648-132f-4278-bbc0-89b6c28a81c7.png)
 
 
 - Edit employee profile
@@ -48,10 +48,18 @@
 
   - [x] Display a variety of effects.
 
-    ![5](https://user-images.githubusercontent.com/88143329/148467070-b41edf04-702a-4d83-94ed-d51c998ba92f.png)
+    ![5](https://user-images.githubusercontent.com/88143329/148581139-872b2e52-437f-492c-9341-0dd11811f7e2.png)
+    
+   
+- Color pallet
+
+  - [x] Display a variety of color pallets.
+
+    ![4](https://user-images.githubusercontent.com/88143329/148581558-d047394c-9055-45d7-8fc0-1645b8b54638.png)
+
 
 - Help
 
   - [x] Description about the App and the programmer.
 
-    ![7](https://user-images.githubusercontent.com/88143329/148467337-47dc2e1c-032f-488f-9a83-36bb65a298d9.png)
+    ![2](https://user-images.githubusercontent.com/88143329/148581832-3c2e3b3b-8954-4e98-a29e-7975874c4f50.png)
