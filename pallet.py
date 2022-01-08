@@ -8,7 +8,7 @@ class Pallets(QWidget):
     def __init__(self):
         super().__init__()
         loader = QUiLoader()
-        self.ui = loader.load("form_pallet.ui",None)
+        self.ui = loader.load("ui/form_pallet.ui",None)
         self.ui.show()
         cap = cv2.VideoCapture(0)
         while True:

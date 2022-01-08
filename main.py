@@ -14,7 +14,7 @@ class Start(QMainWindow):
     def __init__(self):
         super().__init__()
         loader = QUiLoader()
-        self.ui = loader.load("form_login.ui",None)
+        self.ui = loader.load("ui/form_login.ui",None)
         self.ui.show()
         self.ui.btn_login.clicked.connect(self.login)       
     
@@ -39,7 +39,7 @@ class Main(QMainWindow):
     def __init__(self):
         super().__init__()
         loader = QUiLoader()
-        self.ui = loader.load("form.ui",None)
+        self.ui = loader.load("ui/form.ui",None)
         self.ui.show()
         self.ui.btn_add.clicked.connect(self.add)
         self.ui.btn_setting.clicked.connect(self.setting)
@@ -127,7 +127,7 @@ class Add(QWidget):
     def __init__(self):
         super().__init__()
         loader = QUiLoader()
-        self.ui = loader.load("form_add.ui",None)
+        self.ui = loader.load("ui/form_add.ui",None)
         self.ui.show()
         self.ui.back.clicked.connect(self.back)
         self.ui.added.clicked.connect(self.add_to_database)
@@ -173,7 +173,7 @@ class Edit(QWidget):
     def __init__(self,i):
         super().__init__()
         loader = QUiLoader()
-        self.ui = loader.load("form_edit.ui",None)
+        self.ui = loader.load("ui/form_edit.ui",None)
         self.ui.show()
         self.i = i[3]
         self.ui.back.clicked.connect(self.back)
@@ -223,7 +223,7 @@ class Setting(QWidget):
     def __init__(self):
         super().__init__()
         loader = QUiLoader()
-        self.ui = loader.load("form_setting.ui",None)
+        self.ui = loader.load("ui/form_setting.ui",None)
         self.ui.show()
         self.ui.btn_back.clicked.connect(self.back)
         self.ui.btn_save.clicked.connect(self.save)

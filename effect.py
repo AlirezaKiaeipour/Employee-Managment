@@ -9,7 +9,7 @@ class Effect(QWidget):
     def __init__(self):
         super().__init__()
         loader = QUiLoader()
-        self.ui = loader.load("form_effect.ui",None)
+        self.ui = loader.load("ui/form_effect.ui",None)
         self.ui.show()
         self.face_detector = cv2.CascadeClassifier("package/face.xml")
         cap = cv2.VideoCapture(0)

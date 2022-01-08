@@ -1,6 +1,6 @@
 import sqlite3
 
-con = sqlite3.connect("database_admin.db")
+con = sqlite3.connect("database/database_admin.db")
 data = con.cursor()
 
 def select():

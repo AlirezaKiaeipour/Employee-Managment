@@ -7,7 +7,7 @@ class Camera(QWidget):
     def __init__(self,pic):
         super().__init__()
         loader = QUiLoader()
-        self.ui = loader.load("form_cam.ui",None)
+        self.ui = loader.load("ui/form_cam.ui",None)
         self.ui.show()
         self.ui.btn_image.clicked.connect(self.save)
         self.pic = pic
